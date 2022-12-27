@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AL-HUDA</title>
+    <link rel="stylesheet" href="dist/output.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="fixed top-0 left-0 right-0 z-20 bg-black/90">
+      <div
+        class="flex justify-between px-4 py-4 text-white lg:items-center lg:w-full lg:max-w-[1024px] lg:mx-auto lg:px-0 lg:py-2"
+      >
+        <div class="title">
+          <a class="font-bold" href="#">MESJID AL-HUDA</a>
+        </div>
+        <button type="button" id="menuopen" class="lg:hidden">
+          <i class="bx bx-menu text-3xl"></i>
+        </button>
+        <div
+          id="menulist"
+          class="menu_list bg-slate-200/60 text-white h-[100vh] absolute right-0 top-0 w-[60%] transition-all hidden z-10 lg:block lg:relative lg:w-auto lg:h-auto lg:bg-inherit"
+        >
+          <ul
+            class="h-full flex flex-col bg-black/90 w-full gap-8 justify-center px-4 font-bold relative lg:flex-row lg:items-center lg:bg-inherit lg:gap-8 lg:font-normal"
+          >
+            <li>
+              <button
+                class="absolute right-0 top-0 text-3xl p-4 animate-pulse lg:hidden"
+                id="menuclose"
+              >
+                <i class="bx bx-x"></i>
+              </button>
+            </li>
+            <li>
+              <a href="#" class="hovnav">Beranda</a>
+            </li>
+            <li><a href="#" class="hovnav">Kegiatan</a></li>
+            <li><a href="#" class="hovnav">Gallery</a></li>
+            <li><a href="#" class="hovnav">Contact</a></li>
+            <a
+              href="#"
+              class="bg-[#0A993C] py-2 rounded-full text-center md:max-w-[150px] lg:max-w-none lg:px-4 lg:hover:animate-pulse lg:duration-150"
+              >Kirim Infak</a
+            >
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="h-[100vh] w-[100%] hero-section">
+      <div
+        class="h-full flex flex-col justify-center text-center bg-black/70 text-white"
+      >
+        <h1 class="font-bold text-2xl lg:max-w-[1024px] lg:text-6xl lg:mx-auto">
+          MESJID AL-HUDA
+        </h1>
+        <p class="text-xl lg:max-w-[1024px] lg:text-xl lg:mx-auto">
+          Jalan Cendana Kelurahan Rejosari Kecamatan Tenayan Raya Pekanbaru,
+          Riau
+        </p>
+      </div>
+    </section>
+
+    <hr class="bg-[#0A993C] h-2 border-none animate-pulse duration-100" />
+
+    <section>
+      <div
+        class="bg-[#262626] text-white w-[90%] mx-auto py-4 px-2 rounded-md relative mt-[-20%] shadow-2xl md:max-w-[500px] md:-mt-10"
+      >
+        <i
+          class="bx bxs-quote-alt-left text-[#0A993C] text-3xl absolute left-0 -top-3"
+        ></i>
+        <p class="text-center text-sm">
+          Barangsiapa membangun mesjid karena Allah SWT, meski seukuran lubang
+          tempat burung qatha bertelur, maka Allah SWT membangun untuknya rumah
+          di surga. (HR Ahmad dan Ibnu Abi Syaiban)
+        </p>
+        <i
+          class="bx bxs-quote-alt-right text-[#0A993C] text-3xl absolute right-0 -bottom-3"
+        ></i>
+      </div>
+
+      <div
+        class="w-full mx-auto my-20 card-infak rounded-md md:w-[70%] md:shadow-md"
+      >
+        <div
+          class="flex text-white items-center p-8 rounded-md bg-[#0A993C]/70 flex-col gap-8 md:grid md:grid-cols-2 md:gap-4"
+        >
+          <div class="text-center">
+            <p>Selamat datang di Website resmi Mesjid Al-Huda Pekanbaru</p>
+            <p class="mb-4">
+              di Website ini Bapak/Ibu dapat melihat kegiatan-kegiatan kami dan
+              juga bisa menyalurkan infak/sedekah terbaik Bapak/Ibu
+            </p>
+            <a
+              href="#"
+              class="px-4 py-2 bg-[#262626] rounded-md uppercase text-sm"
+              >Kirim Infak</a
+            >
+          </div>
+          <img
+            src="src/img/jemaah.png"
+            alt=""
+            class="w-full object-cover block rounded-md"
+          />
+        </div>
+      </div>
+    </section>
+
+    <hr class="bg-[#0A993C] h-2 animate-pulse duration-150" />
+
+    <section
+      class="w-full py-12 bg-[#262626] h-[100vh] flex justify-center items-center"
+    >
+      <iframe
+        class="rounded-md object-contain w-full h-full max-h-[300px] md:max-h-[400px] lg:max-w-[700px] shadow-xl"
+        src="https://www.youtube.com/embed/SV0Haz7Ztic"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <section>
+      <div
+        class="my-[4rem] flex flex-col w-full h-full px-4 py-4 gap-8 md:w-[80%] md:grid md:grid-cols-2 md:mx-auto md:px-0 lg:py-14 lg:max-w-[1024px] md:py-20"
+      >
+        <div class="mb-8 md:mb-0">
+          <h1 class="font-bold text-3xl mb-4">
+            Siapa bilang <span class="text-[#0A993C]">harta</span> tak dibawa
+            <span class="text-red-600">mati</span> ???
+          </h1>
+          <h1 class="mb-4 text-2xl">Bisa kok, Sedekahin..!!!</h1>
+          <p class="mb-4">
+            "Apabila manusia itu meninggal dunia, maka terputuslah segala
+            amalnya kecuali tiga: yaitu sedekah jariyah, ilmu yang bermanfaat
+            atau anak sholeh yang mendoakan kepadanya."
+          </p>
+          <p class="mb-6 text-sm">(HR Muslim)</p>
+          <a
+            href="#"
+            class="block bg-[#0A993C] font-bold text-white text-3xl text-center py-4 rounded-md animate-pulse duration-200 shadow-md lg:flex lg:max-w-[200px] lg:justify-center lg:text-xl lg:py-2"
+            >INFAK NOW</a
+          >
+        </div>
+        <div
+          class="relative flex flex-col gap-4 items-center md:bg-white w-full lg:gap-2"
+        >
+          <img
+            src="src/img/img1.png"
+            alt=""
+            class="rounded-md object-cover w-full max-w-[350px] md:absolute md:-top-14 md:-left-0 shadow-md"
+          />
+          <img
+            src="src/img/img2.png"
+            alt=""
+            class="rounded-md object-cover w-full max-w-[350px] md:absolute md:-bottom-14 md:right-0 shadow-md"
+          />
+        </div>
+      </div>
+    </section>
+
+    <hr class="bg-[#0A993C] h-2 animate-pulse duration-100 transition-all" />
+
+    <section class="pt-8 bg-[#262626] pb-20 text-white">
+      <h1 class="text-center uppercase mb-8 text-3xl font-bold">
+        Kegiatan Terbaru
+      </h1>
+      <div
+        class="cards flex gap-16 justify-center flex-wrap lg:max-w-[1024px] lg:mx-auto lg:gap-4 lg:pb-16"
+      >
+        <div class="card max-w-[300px] relative">
+          <img
+            src="src/img/Rectangle 34.png"
+            alt=""
+            class="w-full object-cover mb-4 animate-pulse duration-150"
+          />
+          <h1 class="mb-4 font-bold">
+            Goro Bersama Murid TPA/TPQ Mesjid Al-Huda
+          </h1>
+          <p class="mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, ut?
+          </p>
+          <a
+            href="#"
+            class="bg-[#0A993C] px-2 py-2 uppercase text-white rounded-md absolute right-0 bottom-[-20] text-sm"
+            >lebih detail</a
+          >
+        </div>
+        <div class="card max-w-[300px] relative">
+          <img
+            src="src/img/Rectangle 34.png"
+            alt=""
+            class="w-full object-cover mb-4 animate-pulse duration-150"
+          />
+          <h1 class="mb-4 font-bold">
+            Goro Bersama Murid TPA/TPQ Mesjid Al-Huda
+          </h1>
+          <p class="mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, ut?
+          </p>
+          <a
+            href="#"
+            class="bg-[#0A993C] px-2 py-2 uppercase text-white rounded-md absolute right-0 bottom-[-20] text-sm"
+            >lebih detail</a
+          >
+        </div>
+        <div class="card max-w-[300px] relative">
+          <img
+            src="src/img/Rectangle 34.png"
+            alt=""
+            class="w-full object-cover mb-4 animate-pulse duration-150"
+          />
+          <h1 class="mb-4 font-bold">
+            Goro Bersama Murid TPA/TPQ Mesjid Al-Huda
+          </h1>
+          <p class="mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, ut?
+          </p>
+          <a
+            href="#"
+            class="bg-[#0A993C] px-2 py-2 uppercase text-white rounded-md absolute right-0 bottom-[-20] text-sm"
+            >lebih detail</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-list w-full">
+      <div class="bg-[#0A993C]/70">
+        <div
+          class="container flex flex-col w-full py-12 mx-auto gap-8 items-center justify-center md:grid md:grid-cols-3 md:w-[80%] lg:max-w-[1024px]"
+        >
+          <div class="1 flex flex-col items-center justify-center text-white">
+            <img
+              src="src/img/ramadan 1.png"
+              alt=""
+              class="block max-w-[80px] object-cover mb-4"
+            />
+            <h1 class="font-bold">MESJID</h1>
+            <h1 class="text-2xl font-[900]">AL-HUDA</h1>
+          </div>
+
+          <div class="text-white">
+            <h1 class="mb-4 font-bold">Contact</h1>
+            <ul class="px-8 flex flex-col gap-2 text-sm">
+              <li>
+                <a href="#"> <i class="bx bxl-whatsapp"></i> 0823-9217-9063 </a>
+              </li>
+              <li>
+                <a href="#"> <i class="bx bxl-twitter"></i> isaaan98 </a>
+              </li>
+              <li>
+                <a href="#"> <i class="bx bxl-facebook"></i> Mesjid Al-Huda </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="bx bx-envelope"></i> alhuda@gmail.com
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="pb-4 text-white text-center">
+            <h1 class="font-bold mb-4">Lokasi Mesjid</h1>
+            <img src="src/img/Screenshot_25 1.png" alt="" />
+          </div>
+        </div>
+
+        <hr class="border-[#262626] animate-pulse duration-100" />
+        <div
+          class="flex justify-between py-4 px-4 0 text-sm text-white lg:max-w-[1024px] lg:mx-auto"
+        >
+          <p>copyright 2022</p>
+
+          <p>Muhammad Ikhsan</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="src/app.js"></script>
+  </body>
+</html>
